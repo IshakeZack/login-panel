@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <link rel="stylesheet" href="Animation.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div id="container" class="container">
+        <!--form section-->
+        <div class="row">
+            <!--Sign up-->
+            <div class="col align-items-center flex-col">
+                <div class="form-wrapper align-items-center">
+                    <div class="form sign-up">
+                        <div class="input-group">
+                            <i class='bx bxs-user'></i>
+                            <input type="text" placeholder="Username">
+                        </div>
+                        <div class="input-group">
+                            <i class='bx bx-mail-send'></i>
+                            <input type="email" placeholder="Email">
+                        </div>
+                        <div class="input-group">
+                            <i class='bx bxs-lock-alt'></i>
+                            <input type="password" placeholder="Password">
+                        </div>
+                        <button>Sign Up</button>
+                        <p>
+                            <span>Already have an account ?</span>
+                            <b onclick="toggle()" class="dada">Sign in here!</b>
+                        </p>
+                    </div>
+                </div>
+                <div class="form-wrapper">
+                    <div class="social-media align-items-center sign-up">
+                        <div class="align-items-center facebook-bg">
+                            <i class='bx bxl-facebook' ></i>
+                        </div>
+                        <div class="align-items-center instagram-bg">
+                            <i class='bx bxl-instagram' ></i>
+                        </div>
+                        <div class="align-items-center discord-bg">
+                            <i class='bx bxl-discord-alt' ></i> 
+                        </div>
+                        <div class="align-items-center twitter-bg">
+                            <i class='bx bxl-twitter' ></i>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end Sign up-->
+            <!-- Sign in-->
+            <div class="col align-items-center flex-col">
+                <div class="form-wrapper align-items-center">
+                    <div class="form sign-in">
+                        <div class="input-group">
+                            <i class='bx bxs-user'></i>
+                            <input type="text" placeholder="Username">
+                        </div>
+                        <div class="input-group">
+                            <i class='bx bxs-lock-alt'></i>
+                            <input type="password" placeholder="Password">
+                        </div>
+                        <button>Sign In</button>
+                        <p>
+                            <b>Forget password?</b>
+                        </p>
+                        <p>
+                            <span>d'ont hava an account?</span>
+                            <b onclick="toggle()" class="dada">Sign up here!</b>
+                        </p>
+                    </div>
+                </div>
+                <div class="form-wrapper">
+                    <div class="social-media align-items-center sign-in">
+                        <div class="align-items-center facebook-bg">
+                            <i class='bx bxl-facebook' ></i>
+                        </div>
+                        <div class="align-items-center instagram-bg">
+                            <i class='bx bxl-instagram' ></i>
+                        </div>
+                        <div class="align-items-center discord-bg">
+                            <i class='bx bxl-discord-alt' ></i> 
+                        </div>
+                        <div class="align-items-center twitter-bg">
+                            <i class='bx bxl-twitter' ></i>   
+                        </div>
+                    </div>
+                </div>
+                <!--end Sign in-->
+        </div>
+        <!--end form section-->
+        <!--content section-->
+        <div class="row content-row">
+            <!--Sign in content-->
+            <div class="col align-items-center flex-col">
+                <div class="text sign-in">
+                    <h2>Welcome Back</h2>
+                    <p>Welcome to our site, we hope everyone enjoys the site
+                        This site is a mix of Discord and Rabbit
+                        Thank you all</p>
+                </div>
+                <div class="img sign-in">
+                    <img src="sign in.svg" alt="Welcome">
+                </div>
+            </div>
+            <!--Sign up content-->
+            <div class="col align-items-center flex-col">
+                <div class="img sign-up">
+                    <img src="sign up.svg" alt="Welcome">
+                </div>
+                <div class="text sign-up">
+                    <h2>Join with us</h2>
+                    <p>Welcome to our site, we hope everyone enjoys the site
+                        This site is a mix of Discord and Rabbit
+                        Thank you all</p>
+                </div>
+            </div>
+            
+        </div>
+        <!--end content section-->
+        
+    </div>
+    <script src="Animation.js"></script>
+</body>
+</html>
